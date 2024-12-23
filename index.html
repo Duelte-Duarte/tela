@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="shortcut icon" href="img/login.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="icon">
+               <img src="img/account_circle.png" alt="logo" sizes="24" srcset="">
+            </div>
+            <div class="option">
+                <ul class="board">
+                    <li id="board-2">Início</li>
+                    <li id="board-2">Conteúdo</li>
+                    <li id="hover"><a style="text-decoration: none; color: black;" href="formulario.php">Cadastro</a></li>  
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="login-container">
+            <h1 id="lg">Login</h1>
+            <form action="config.php" method="POST">
+                <div class="input-group">
+                    <label for="username">Usuário:</label>
+                    <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                </div>
+                <button type="submit" class="btn">Entrar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
